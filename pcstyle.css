@@ -1,0 +1,30 @@
+html{
+	font-size: 60px;
+}
+.containerBox-tabChange_domestic{
+	justify-content: center;
+}
+.containerBox-tabChange_abroad{
+	justify-content: center;
+}
+.chinaStatute-drugs{
+	width: 4.3rem;
+	justify-content: center;
+}
+.chinaStatute-drugs img{
+	margin-left: 0;
+}
+.chinaStatute-apparatus{
+	width: 4.3rem;
+	justify-content: center;
+}
+.chinaStatute-apparatus img{
+	margin-left: 0;
+}
+.chinaStatute-vaccine{
+	width: 4.3rem;
+	justify-content: center;
+}
+.chinaStatute-vaccine img{
+	margin-left: 0;
+}

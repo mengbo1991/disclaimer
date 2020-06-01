@@ -1,0 +1,338 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: "微软雅黑";
+}
+a{
+	cursor: pointer;
+}
+.engfamily a{
+	font-family: arial;
+}
+.containerBox{
+	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+}
+.containerBox-head{
+	width:100%;
+	height: 0.98rem;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+.containerBox-head a{
+	width: 95%;
+	margin: 0 0.25rem;
+}
+.containerBox-head a img{
+	width: 1.4rem;
+	height: 0.7rem;
+}
+.line{
+	width: 100%;
+	height: 0.2rem;
+	background: #eceff6;
+	z-index: -99;
+}
+.line1{
+	box-shadow: 0 -0.03rem 0.05rem rgba(0,0,0,0.1);
+}
+.containerBox-tabChange{
+	width: 100%;
+	height: 1rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.containerBox-tabChange_domestic{
+	width: 100%;
+	height: 1rem;
+	display: flex;
+	align-items: center;
+	background: #fef7f8;
+	color: #333;
+}
+.containerBox-tabChange_domestic span{
+	font-size: 0.4rem;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+}
+.containerBox-tabChange_domestic img{
+	width: 0.5rem;
+	height: 0.5rem;
+	margin-left: 0.5rem;
+	margin-right: 0.2rem;
+}
+.containerBox-tabChange_abroad{
+	width: 50%;
+	height: 1rem;
+	display: flex;
+	align-items: center;
+	background: #fff;
+	color: #333;
+}
+.containerBox-tabChange_abroad span{
+	font-size: 0.3rem;
+}
+.containerBox-tabChange_abroad img{
+	width: 0.5rem;
+	height: 0.5rem;
+	margin-left: 0.5rem;
+	margin-right: 0.2rem;
+}
+.containerBox-tabMain{
+	width: 100%;
+}
+.containerBox-tabMain_domestic{
+	width: 100%;
+}
+.statute{
+	width: 100%;
+	height: 1rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-bottom:2px solid #f7f7f7;
+}
+.statute-chi{
+	width:2.15rem;
+	height: 0.7rem;
+	border-radius:0.35rem;
+	background: #e50012;
+	color: #fff;
+	font-size: 0.28rem;
+	display: flex;
+	align-items: center;
+}
+.statute-chi span{
+	text-align: center;
+	width: 100%;
+}
+.statute-ich{
+	width:2.15rem;
+	height: 0.7rem;
+	border-radius:0.35rem;
+	font-size: 0.28rem;
+	display: flex;
+	align-items: center;
+	background: rgb(238, 241, 247);
+}
+.statute-ich span{
+	text-align: center;
+	width: 100%;
+}
+
+.statute-fda{
+	width:2.15rem;
+	height: 0.7rem;
+	border-radius:0.35rem;
+	font-size: 0.28rem;
+	display: flex;
+	background: rgb(238, 241, 247);	
+	align-items: center;
+}
+.statute-fda span{
+	text-align: center;
+	width: 100%;
+}
+
+.statute-ema{
+	width:2.15rem;
+	height: 0.7rem;
+	border-radius:0.35rem;
+	font-size: 0.28rem;
+	display: flex;
+	background: rgb(238, 241, 247);	
+	align-items: center;
+}
+.statute-ema span{
+	text-align: center;
+	width: 100%;
+}
+.statute-cioms{
+	width:2.15rem;
+	height: 0.7rem;
+	border-radius:0.35rem;
+	font-size: 0.28rem;
+	display: flex;
+	background: rgb(238, 241, 247);	
+	align-items: center;
+}
+.statute-cioms span{
+	text-align: center;
+	width: 100%;
+}
+.statuteDetail{
+	width: 100%;
+}
+.chiDetail{
+	width: 100%;
+}
+/*公用部分*/
+.commonStyle{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.commonStyle li{
+	width: 95%;
+	margin: 0 0.25rem;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #e5e5e5;
+}
+.commonLeft{
+	width: 97%;
+}
+.source{
+	margin-left: 0.3rem;
+}
+.commonLeft a{
+	display: block;
+	width: 100%;
+	font-size: 0.28rem;
+	color: #333;
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+    line-height: 0.5rem;
+    overflow: hidden;
+}
+.commonLeft p{
+	font-size: 0.24rem;
+	color: #999;
+	margin-bottom: 0.1rem;
+}
+.commonRight{
+	width: 10%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.commonRight img{
+	width: 0.2rem;
+	height: 0.35rem;
+}
+.companyBefore{
+	width: 100%;
+}
+.before{
+	width: 100%;
+	height: 0.95rem;
+	border-bottom: 1px solid #e5e5e5;
+	font-size: 0.3rem;
+	color: #e50012;
+	display: flex;
+	align-items: center;
+}
+.before span:nth-of-type(1){
+	width: 0.04rem;
+	height: 0.3rem;
+	background: #e50012;
+	margin-left: 0.25rem;
+	margin-right: 0.14rem;
+}
+.companyAfter{
+	width: 100%;
+}
+.after{
+	width: 100%;
+	height: 0.95rem;
+	border-bottom: 1px solid #e5e5e5;
+	font-size: 0.3rem;
+	color: #e50012;
+	display: flex;
+	align-items: center;
+}
+.after span:nth-of-type(1){
+	width: 0.04rem;
+	height: 0.3rem;
+	background: #e50012;
+	margin-left: 0.25rem;
+	margin-right: 0.14rem;
+}
+/*公用部分结束*/
+.foot-exemption{
+	width: 100%;
+	height: 1.2rem;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.foot-exemption div{
+	width: 3.2rem;
+	height: 0.7rem;
+	background: #e30517;
+	color: #fff;
+	font-size: 0.3rem;
+	border-radius:0.35rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.foot-exemption div a{
+	color: #fff;
+}
+.ichDetail{
+	display: none;
+}
+.chinaOutStatute{
+	width: 100%;
+	height: 1rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-bottom: 2px solid #f7f7f7;
+}
+.chinaOutBtn{
+	width:20%;
+	height: 0.7rem;
+	border-radius:0.35rem;
+	font-size: 0.28rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:#eef1f7 ;
+	color: #333;
+}
+.chinaOutStatute-fda{
+	width:20%;
+	height: 0.7rem;
+	border-radius:0.35rem;
+	font-size: 0.28rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:#e30517 ;
+	color: #fff;
+}
+.chinaOutStatute-emaDetail{
+	display: none;
+}
+.chinaOutStatute-ichDetail{
+	display: none;
+}
+.chinaOutStatute-ciomsDetail{
+	display: none;
+}
+.containerBox-tabMain_abroad{
+	display: none;
+}
+.fdaDetail{
+	display: none;
+}
+.emaDetail{
+	display: none;
+}
+.ciomsDetail{
+	display: none;
+}
