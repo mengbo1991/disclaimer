@@ -137,13 +137,14 @@
 				var layer = layui.layer //弹层
 			})
 
+			var htmlContent = '<div style="background:#FFF; "><div style="padding:20px;"><div ><h1 style="color:#C00; border-bottom:1px solid #C00; text-align:center;padding-bottom:5px;">网站免责声明</h1></div><div style="padding:20px 0px; line-height:1.5;"><p>本网站所提供的信息，只供参考之用。我们对其中的任何资料不作保证，链接来源的提供亦不构成任何法律或其他意见。我们将对本网页上的信息不时更新及修改，但可能未反映最新的发展。</p><p>凡以任何方式进入本网站或直接、间接使用本网站资料者，视为自愿接受本网站声明的约束。</p></div></div></div>';
+
 			function getDisclaimer() {
 				layer.open({
 					title: '免责声明',
-					content: '<style>body{ margin:0px; padding:0px; font-size:12px; background:#DDD; }.main{ background:#FFF; }.wrap{ padding:20px; }.title{ color:#C00; border-bottom:1px solid #C00; text-align:center;padding-bottom:5px; } .title h1{ line-height:20px; font-size:18px; }.content{ padding:20px 0px; line-height:1.5; }</style><style type="text/css" abt="234"></style></head><body><div class="main"><div class="wrap"><div class="title"><h1>网站免责声明</h1></div><div class="content"><p>本网站所提供的信息，只供参考之用。我们对其中的任何资料不作保证，链接来源的提供亦不构成任何法律或其他意见。我们将对本网页上的信息不时更新及修改，但可能未反映最新的发展。</p><p>凡以任何方式进入本网站或直接、间接使用本网站资料者，视为自愿接受本网站声明的约束。</p></div></div></div></body></html>',
+					content: htmlContent,
 					type: 1
 				});
-
 			}
 			/*设置根元素<html>字体大小*/
 			if (document.body.clientWidth <= 480) {
