@@ -55,7 +55,7 @@ a{
 	height: 1rem;
 	display: flex;
 	align-items: center;
-	background: #fef7f8;
+	background: #eef1f7;
 	color: #333;
 }
 .containerBox-tabChange_domestic span{
@@ -105,7 +105,7 @@ a{
 	width:2.15rem;
 	height: 0.7rem;
 	border-radius:0.35rem;
-	background: #e50012;
+	background: #3385ff;
 	color: #fff;
 	font-size: 0.28rem;
 	display: flex;
